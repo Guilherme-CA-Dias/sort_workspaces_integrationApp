@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Sort Table Rows",
+    "version": "1.0",
+    "description": "Sort table rows alphabetically on the integration.app page.",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["*://*.integration.app/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Sort Rows"
+    }
+  }
+  
